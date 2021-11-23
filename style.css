@@ -1,3 +1,12 @@
+/* Basis Insteling */
+
+* {
+  border: solid 2px black;
+  overflow: auto;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 /* Basislayout */
 
 html, body {
@@ -33,13 +42,11 @@ footer {
     padding-bottom: 10px;
 }
 
+/* Layout */
+
+
 
 /* specifieke stijlen */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
