@@ -6,7 +6,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
 /* Basislayout */
 
 html, body {
@@ -43,8 +42,27 @@ footer {
 }
 
 /* Layout */
+.Linksplaatje {
+  width:200px;
+  float:left;
+  padding: 10px
+}
 
+.Rechtstekst {
+  width:400px;
+  float:left;
+}
 
+.Rechtsplaatje {
+  width:200px;
+  float:right;
+  padding: 10px
+}
+
+.Linkstekst {
+  width:400px;
+  float:right;
+}
 
 /* specifieke stijlen */
 
