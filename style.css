@@ -11,9 +11,12 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgba(140, 161, 123);  
+    background-image: url('afbeeldingen/volleybalveld.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
     
-    color: #000000;
+    color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -27,6 +30,8 @@ main {
 
 article {
     text-align: justify;
+    background: rgba(255,255,255, 50%);
+    padding: 10px 
 }
 
 
@@ -51,17 +56,6 @@ footer {
 .Rechtstekst {
   width:400px;
   float:left;
-}
-
-.Rechtsplaatje {
-  width:200px;
-  float:right;
-  padding: 10px
-}
-
-.Linkstekst {
-  width:400px;
-  float:right;
 }
 
 /* specifieke stijlen */
