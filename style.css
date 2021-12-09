@@ -97,7 +97,13 @@ nav li a.active {
     background-color: rgb(45, 224, 75);
 }
 
-img.Linksplaatje{
+img.Bal{
+  float: left;
+  height: 250px;
+  padding: 10px;
+}
+
+img.Veld{
   float: left;
   height: 250px;
   padding: 10px;
